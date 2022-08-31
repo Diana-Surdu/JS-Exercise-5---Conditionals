@@ -1,0 +1,72 @@
+<script>
+
+// 1. program that accept two integers and display the larger 
+//    in the console. 
+
+  let number1 = prompt("Write the first number:" )
+  let number2 = prompt("Write the second number:")
+
+  if( parseInt(number1) > parseInt(number2)) {
+    console.log("The larger number of " + number1 + " and " + number2 +
+                " is " + number1 + ".")
+
+  } else { 
+      console.log("The larger number of " + number1 + " and " + number2 +
+                  " is " + number2 + ".")
+
+  }
+
+// 2.conditional statement to find the sign of product of three numbers.
+
+let x = 3
+let y = -7
+let z = 2 
+
+if (x>0 && y>0 && z>0) {
+      console.log("The sign is +")
+} else if (x<0 && y<0 && z<0) {
+          console.log("The sign is -")
+        } else if (x>0 && y<0 && z<0) {
+          console.log("The sign is +")
+        } else if (x<0 && y>0 && z<0) {
+          console.log("The sign is +")
+        } else {
+          console.log("The sign is -")
+        }
+
+// 3. conditional statement to sort three numbers
+
+let a = 0
+let b = -1
+let c = 4
+
+if(a>b && b>c) {
+  console.log( a + " , " + b + " , " + c)
+} else if (a<b && b<c) {
+  console.log( c + " , " + b + " , " + a)
+} else if (a>b && b<c) {
+  console.log( c + " , " + a + " , " + b)
+}
+
+
+// 4. conditional statement to find the largest of five numbers.
+
+let A = -5
+let B = -2
+let C = -6
+let D =  0
+let F = -1
+if (A>B && A>C && A>D && A>F) {
+    console.log(A)
+} else if (B>A && B>C && B>D && B>F) {
+    console.log(B)
+} else if (C>A && C>B && C>D && C>F) {
+    console.log(C)
+} else if (D>A && D>C && D>B && D>F) {
+    console.log(D)
+} else {
+    console.log(F);
+}
+
+
+</script>
